@@ -391,7 +391,7 @@ export const analyzePaperTemplate = async (
   mimeType: string
 ): Promise<{ mcqCount: number; shortCount: number; longCount: number }> => {
   const manualKey = typeof window !== 'undefined' ? localStorage.getItem('CUSTOM_GEMINI_API_KEY') : null;
-  const apiKey = manualKey || process.env.API_KEY || process.env.GEMINI_API_KEY || "AIzaSyAus49kyg3oDkmmWQQ3uvbcx20aI7Cu9S8";
+  const apiKey = manualKey || process.env.API_KEY || process.env.GEMINI_API_KEY || " ";
 
   if (!apiKey) return { mcqCount: 10, shortCount: 5, longCount: 3 };
 
