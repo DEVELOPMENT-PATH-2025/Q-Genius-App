@@ -15,13 +15,13 @@ import { getFirestore, doc, getDoc, setDoc, collection, query, where, getDocs, a
 
 // Use hardcoded config for now (will be updated with env vars later)
 const firebaseConfig = {
-  projectId: "ai-question-paper-genera-cb676",
-  appId: "1:294497958738:web:e1b3a03997e6ec5eda188b",
-  apiKey: "AIzaSyAQ9jLs3pU-4nTxgFnl_nk3K8y8bsxctAQ",
-  authDomain: "ai-question-paper-genera-cb676.firebaseapp.com",
-  firestoreDatabaseId: "ai-studio-e9ba6653-3824-44c6-802b-a5b46de9ee86",
-  storageBucket: "ai-question-paper-genera-cb676.firebasestorage.app",
-  messagingSenderId: "294497958738",
+  projectId: ,
+  appId: ,
+  apiKey: ,
+  authDomain: ,
+  firestoreDatabaseId: ,
+  storageBucket: ,
+  messagingSenderId: ,
   measurementId: ""
 };
 
